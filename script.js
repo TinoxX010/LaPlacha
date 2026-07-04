@@ -37,7 +37,7 @@ const MENU = {
   "Bebidas" : [
     { name: "Coca-Cola", desc: "La clásica bebida gaseosa.", price: "$2.000", img: "assets/coca.jpg" },
     { name: "Sprite", desc: "refresco de sabor a lima-limón", price: "$1.500", img: "assets/sprite.jpg" },
-    { name: "Manaos", desc: "cola, lima y pomelo.", price: "$3.500", img: "assets/manaos.jpg" },
+    { name: "Manaos", desc: "cola, lima y pomelo.", price: "$3.500", img: "assets/MANAOS.jpg" },
   ],
   "Pizzas ": [
     { name: "Muzzarella", desc: "Pizza clásica con muzzarella y salsa de tomate.", price: "$6.000", img: "assets/fotolaploanchetta.jpg" },
