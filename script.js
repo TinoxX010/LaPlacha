@@ -45,7 +45,7 @@ const MENU = {
   ],
    "Promos": [
     { name: "2 burguers y coca de 1,5L", desc: "2 burguers, Doble cheddar y una coca de 1,5L", price: "$30000", img: "assets/fotolaploanchetta.jpg" },
-    { name: "2 Muzzas", desc: "2 MUZZAS", price: "$40000", img: "assets/fotolaploanchetta.jpg" }
+    { name: "2 Muzzas", desc: "2 MUZZAS", price: "$40000", img: "assets/fotolaploanchetta.jpg" },
   ],
 };
 
