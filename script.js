@@ -43,6 +43,9 @@ const MENU = {
     { name: "Muzzarella", desc: "Pizza clásica con muzzarella y salsa de tomate.", price: "$6.000", img: "assets/fotolaploanchetta.jpg" },
     { name: "Napolitana", desc: "Pizza con muzzarella, tomate, ajo y albahaca.", price: "$7.000", img: "assets/fotolaploanchetta.jpg" },
   ],
+   "Promos": [
+    { name: "2 burguers y coca de 1,5L", desc: "2 burguers, Doble cheddar y una coca de 1,5L", price: "$30000", img: "assets/fotolaploanchetta.jpg" },
+    { name: "2 Muzzas", desc: "2 MUZZAS", price: "$30000", img: "assets/fotolaploanchetta.jpg" },
 };
 
 const tabsEl = document.getElementById("tabs");
