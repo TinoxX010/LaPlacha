@@ -180,7 +180,7 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
    transform-origin: center;
  }
  90% { 
-   transform: scale(1.😎 rotate(5deg);
+   transform: scale(1.8 rotate(5deg);
    opacity: 0.8;
    filter: drop-shadow(0 0 20px #ff4500) drop-shadow(0 0 40px #ff8c00);
    transform-origin: center;
