@@ -176,24 +176,30 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
    transform: scale(1) rotate(0deg);
    opacity: 1;
    filter: drop-shadow(0 0 0px #ff4500);
+   transform-origin: center;
  }
  90% { 
    transform: scale(1.😎 rotate(5deg);
    opacity: 0.8;
    filter: drop-shadow(0 0 20px #ff4500) drop-shadow(0 0 40px #ff8c00);
+   transform-origin: center;
  }
  92% { 
    transform: scale(0.3) rotate(-10deg);
    opacity: 0;
    filter: drop-shadow(0 0 50px #ffd700);
+   transform-origin: center;
  }
  95% { 
-   transform: scale(0.3);
+   transform: scale(0.3) rotate(0deg);
    opacity: 0;
+   filter: drop-shadow(0 0 0px #ff4500);
+   transform-origin: center;
  }
  100% { 
    transform: scale(1) rotate(0deg);
    opacity: 1;
    filter: drop-shadow(0 0 0px #ff4500);
+   transform-origin: center;
  }
 }
