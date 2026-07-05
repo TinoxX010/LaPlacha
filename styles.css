@@ -162,3 +162,36 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
  50% { background-position: 100% 50%; }
  100% { background-position: 0% 50%; }
 }
+.text-fire {
+  display: inline-block;
+  animation: explotar 4s ease-in-out infinite;
+  color: #ff4500;
+  font-weight: 900;
+}
+
+@keyframes explotar {
+ 0%, 85% { 
+   transform: scale(1) rotate(0deg);
+   opacity: 1;
+   text-shadow: 0 0 0px #ff4500;
+ }
+ 90% { 
+   transform: scale(1.😎 rotate(5deg);
+   opacity: 0.8;
+   text-shadow: 0 0 20px #ff4500, 0 0 40px #ff8c00;
+ }
+ 92% { 
+   transform: scale(0.3) rotate(-10deg);
+   opacity: 0;
+   text-shadow: 0 0 50px #ffd700;
+ }
+ 95% { 
+   transform: scale(0.3) rotate(0deg);
+   opacity: 0;
+ }
+ 100% { 
+   transform: scale(1) rotate(0deg);
+   opacity: 1;
+   text-shadow: 0 0 0px #ff4500;
+ }
+}
