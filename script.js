@@ -25,7 +25,7 @@ const MENU = {
     { name: "Fernet con Coca", desc: "El clásico, bien cargado.", price: "$7.000", img: "assets/fotolaploanchetta.jpg" },
   ],
   "Postres": [
-    { name: "Tiramisu", desc: "Postre italiano con crema de mascarpone y cafe", price: "$7.500", img: "assets/fotolaploanchetta.jpg" },
+    { name: "Tiramisu", desc: "Postre italiano con crema de mascarpone y cafe", price: "$7.500", img: "assets/fotolaplachetta.jpg" },
     { name: "Chocotorta", desc: "postre argentino que no falla jamas", price: "$7.500", img: "assets/fotolaploanchetta.jpg" },
     { name: "Bombom Escoces", desc: "Postre escoces helado, cobertura de chocolate con mani", price: "$4.000", img: "assets/fotolaploanchetta.jpg" },
   ],
