@@ -166,7 +166,7 @@ document.getElementById("cartClose").onclick = closeCart;
 overlay.onclick = closeCart;
 
 // === WhatsApp ===
-const waText = "Hola! Me gustaría hacer un pedido en La Planchetta 🍔";
+const waText = "Hola! Me gustaría hacer un pedido en Las Bandidas 🍔";
 document.getElementById("waBtn").href =
   `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(waText)}`;
 
@@ -175,7 +175,7 @@ document.getElementById("cartSend").onclick = () => {
   const lines = cart.map((i) => `• ${i.qty}x ${i.name} — ${formatPrice(i.price * i.qty)}`).join("\n");
   const total = cart.reduce((s, i) => s + i.price * i.qty, 0);
   const msg =
-`Hola! Quiero hacer este pedido en La Planchetta 🍔
+`Hola! Quiero hacer este pedido en Las Bandidas 🍔
 
 ${lines}
 
