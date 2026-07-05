@@ -168,7 +168,6 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
   color: #ff4500;
   font-weight: 900;
 }
-
 @keyframes explotar {
  0%, 85% { 
    transform: scale(1) rotate(0deg);
@@ -194,4 +193,3 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
    opacity: 1;
    text-shadow: 0 0 0px #ff4500;
  }
-}
