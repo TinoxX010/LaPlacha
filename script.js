@@ -48,7 +48,6 @@ const MENU = {
     { name: "2 Muzzas", desc: "2 MUZZAS", price: "$40000", img: "assets/fotolaploanchetta.jpg" },
   ],
 };
-
 const tabsEl = document.getElementById("tabs");
 const gridEl = document.getElementById("menuGrid");
 let currentTab = Object.keys(MENU)[0];
